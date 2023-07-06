@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title={tableTitle}>
+        <lightning-datatable columns={columns}
+                             data={data}
+                             key-field="Id"
+                             draft-values={draftValues}
+                             onsave={handleSave}>
+        </lightning-datatable>
+    </lightning-card>
+</template>
